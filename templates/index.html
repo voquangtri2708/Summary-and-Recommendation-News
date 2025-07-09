@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextBot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            TextBot
+        </div>
+        <div class="chat-messages" id="chat-messages">
+            <!-- Messages will appear here -->
+        </div>
+        <div class="chat-input-area">
+            <textarea placeholder="Nhập vào nội dung văn bản..." id="chat-input" rows="1"></textarea>
+            <button id="send-button">
+                <img src="{{ url_for('static', filename='icons/send_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg') }}" class="icon" alt="Send">
+            </button>
+            <div class="attach-icon">
+                <label for="file-input">
+                    <img src="{{ url_for('static', filename='icons/attach_file_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg') }}" class="icon" alt="Attach File">
+                </label>
+                <input type="file" id="file-input">
+            </div>
+            <button id="fetch-url-button">
+                <img src="{{ url_for('static', filename='icons/link_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg') }}" class="icon" alt="Fetch URL">
+            </button>
+        </div>
+        <div id="url-dialog" class="dialog" style="display: none;">
+            <div class="dialog-content">
+                <p>Nhập URL:</p>
+                <input type="text" id="url-input" placeholder="Enter URL here...">
+                <button id="url-ok-button">Ok</button>
+                <button id="url-close-button">Đóng</button> <!-- New close button -->
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
