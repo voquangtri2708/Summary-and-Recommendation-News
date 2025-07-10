@@ -76,11 +76,7 @@
 - The dataset used is "VNDS: A Vietnamese Dataset for Summarization".
 - Word2Vec is used for semantic similarity in recommendations.
 
-## License
 
-Copyright © 2025 VO QUANG TRI. All rights reserved.
-
-This project is based on the T5 model architecture, which has been fine-tuned for Vietnamese news summarization. The code and fine-tuned models are proprietary and may not be used, copied, or distributed without explicit permission from the author.
 
 ---
 
@@ -89,9 +85,9 @@ If you encounter any issues, please check that all model and data files are corr
 ---
 
 **Buy me a coffee:**  
-MB Bank - 0347830406  
+* MB Bank - 0347830406 * 
 VO QUANG TRI
-
+![alt text](static/icons/image.png)
 ---
 
 ## Contact
