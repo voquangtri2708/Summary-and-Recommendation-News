@@ -84,10 +84,11 @@ If you encounter any issues, please check that all model and data files are corr
 
 ---
 
-**Buy me a coffee:**  
-* MB Bank - 0347830406 * 
-VO QUANG TRI
-![alt text](static/icons/image.png)
+## ☕ Buy Me a Coffee
+☕ MB Bank: 0347830406 - VO QUANG TRI 
+
+<img src="static/icons/image.png" width="50%">
+<!-- ![alt text](static/icons/image.png) -->
 ---
 
 ## Contact
