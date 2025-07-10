@@ -1,3 +1,11 @@
 Copyright © 2025 VO QUANG TRI. All rights reserved.
 
-This project is based on the T5 model architecture, which has been fine-tuned for Vietnamese news summarization. The code and fine-tuned models are proprietary and may not be used, copied, or distributed without explicit permission from the author.
+This project utilizes the T5 model architecture, which has been fine-tuned by VO QUANG TRI for Vietnamese news summarization.
+
+Permission is hereby granted to use this code and the accompanying fine-tuned models for personal, non-commercial, and research purposes only, provided that proper attribution is given to the author.
+
+Any commercial use, redistribution, or modification of this code or the fine-tuned models, in whole or in part, is strictly prohibited without the prior written consent of VO QUANG TRI.
+
+THE SOFTWARE AND MODELS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OF THIS SOFTWARE OR THE MODELS.
+
+For licensing requests or further information, please contact: voquangtri2708@gmail.com
